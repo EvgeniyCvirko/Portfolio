@@ -1,0 +1,15 @@
+.container {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.block{
+  width: 100%;
+  border: 1px solid black;
+  background-color: darkorange;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
