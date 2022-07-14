@@ -1,0 +1,15 @@
+.contactsData{
+  width: 100%;
+  & h2{
+    margin: 0;
+  }
+}
+
+.block{
+
+  height: 250px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

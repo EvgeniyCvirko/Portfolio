@@ -4,6 +4,8 @@ import style from '../common/styles/commonStyle.module.scss'
 import {AboutMe} from "./section/aboutMe/AboutMe";
 import {Skills} from "./section/skills/Skills";
 import {Portfolio} from "./section/Portfolio/Portfolio";
+import {Vacancy} from "./section/Vacancy/Vacancy";
+import {Contacts} from "./section/Contacts/Contacts";
 
 export const Main = () => {
     return (
@@ -12,7 +14,8 @@ export const Main = () => {
                 <AboutMe/>
                 <Skills/>
                 <Portfolio/>
-                {/*<Vacancy/>I Am Available For Freelance*/}
+                <Vacancy/>
+                <Contacts/>
             </div>
         </main>
     );

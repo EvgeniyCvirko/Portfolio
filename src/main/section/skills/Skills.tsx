@@ -6,8 +6,8 @@ import {Skill} from "../../../common/components/Skill/Skill";
 
 export const Skills = () => {
     return (
-        <section className={s.skills}>
-            <Title title="Portfolio"/>
+        <section  className={s.skills}>
+            <Title title="Skills"/>
             <div className={style.block}>
                 <Skill title="DEVELOPMENT" description="React, Redux, AXIOS"/>
                 <Skill title="DEVELOPMENT" description="React, Redux, AXIOS"/>

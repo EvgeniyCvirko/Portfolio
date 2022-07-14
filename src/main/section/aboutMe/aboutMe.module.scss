@@ -6,13 +6,16 @@
 }
 
 .greeting{
+  margin: 25px 0 25px 25px;
   width: 250px;
-  height: 80px;
   background-color: whitesmoke;
+    & h1,h5{
+    margin-bottom: 25px;
+  }
 }
 
 .photo{
+  margin-right: 25px;
   width: 250px;
-  height: 80px;
   background-color: whitesmoke;
 }
