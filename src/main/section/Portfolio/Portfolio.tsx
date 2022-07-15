@@ -11,6 +11,9 @@ export const Portfolio = () => {
             <div className={style.block}>
                 <Project title="DEVELOPMENT" description="React, Redux, AXIOS"/>
                 <Project title="DEVELOPMENT" description="React, Redux, AXIOS"/>
+                <Project title="DEVELOPMENT" description="React, Redux, AXIOS"/>
+                <Project title="DEVELOPMENT" description="React, Redux, AXIOS"/>
+                <Project title="DEVELOPMENT" description="React, Redux, AXIOS"/>
             </div>
         </section>
     );

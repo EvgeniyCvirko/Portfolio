@@ -8,3 +8,9 @@
     justify-content: right;
     margin-top: 30px;
 }
+
+@media (max-width: 560px) {
+    .blockMenu {
+        justify-content: center;
+    }
+}

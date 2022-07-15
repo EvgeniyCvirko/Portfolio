@@ -1,4 +1,4 @@
-.sendMessage{
+.sendMessage {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,7 +6,8 @@
   width: 100%;
   height: 100%;
   background-color: wheat;
-  & h2{
+
+  & h2 {
     background-color: wheat;
   }
 }
@@ -50,5 +51,11 @@
     padding: 0 40px;
     text-transform: uppercase;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 560px) {
+  .button {
+    font-size: 10px;
   }
 }

@@ -19,3 +19,29 @@
   width: 250px;
   background-color: whitesmoke;
 }
+@media (max-width:768px) {
+  .greeting {
+    width: 150px;
+  }
+  .photo{
+    width: 150px;
+  }
+}
+
+@media (max-width:560px) {
+  .aboutMe{
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+    margin: 55px 20px;
+  }
+
+  .greeting {
+    width: 100px;
+    margin: 15px 0 15px 15px;
+  }
+  .photo{
+    width: 100px;
+    margin-right: 15px;
+  }
+}
